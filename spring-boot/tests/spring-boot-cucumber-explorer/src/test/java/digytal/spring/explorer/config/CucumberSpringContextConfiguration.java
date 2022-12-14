@@ -12,8 +12,14 @@ import org.springframework.test.context.ContextConfiguration;
 /**
  * Class to use spring application context while running cucumber
  */
-@SpringBootTest(webEnvironment = WebEnvironment.DEFINED_PORT)
-@ContextConfiguration(classes = SpringBootCucumberExplorerApplication.class, loader = SpringBootContextLoader.class)
+
+/** SE PRETENDE SUBIR A APLICAÇÃO PARA REALIZAR O TESTE
+
+ @SpringBootTest(webEnvironment = WebEnvironment.DEFINED_PORT)
+ @ContextConfiguration(classes = SpringBootCucumberExplorerApplication.class, loader = SpringBootContextLoader.class)
+
+ */
+@SpringBootTest
 public class CucumberSpringContextConfiguration {
 
     private static final Logger LOG = LoggerFactory.getLogger(CucumberSpringContextConfiguration.class);

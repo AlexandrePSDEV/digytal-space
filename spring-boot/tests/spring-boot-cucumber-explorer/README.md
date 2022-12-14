@@ -9,3 +9,5 @@ For further reference, please consider the following sections:
 
 Referencia:
 https://medium.com/@bcarunmail/set-up-and-run-cucumber-tests-in-spring-boot-application-d0c149d26220
+
+//https://www.baeldung.com/spring-tests-override-properties
